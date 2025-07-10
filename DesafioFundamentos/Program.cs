@@ -1,4 +1,5 @@
-﻿using DesafioFundamentos.Models;
+﻿using System.Runtime.CompilerServices;
+using DesafioFundamentos.Models;
 
 // Coloca o encoding para UTF8 para exibir acentuação
 Console.OutputEncoding = System.Text.Encoding.UTF8;
@@ -18,6 +19,9 @@ Estacionamento es = new Estacionamento(precoInicial, precoPorHora);
 
 string opcao = string.Empty;
 bool exibirMenu = true;
+
+//Criamos uma lista para salvar as informacões das placas 
+
 
 // Realiza o loop do menu
 while (exibirMenu)
